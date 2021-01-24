@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from "./Components/Sidebar";
+import { HashRouter as Router, Switch, Route} from "react-router-dom";
+import State from "./Pages/State";
+import React from "react";
+import Counties from "./Pages/Counties";
+import Town from "./Pages/Town";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+          <Router>
+              <Sidebar/>
+              <Switch>
+                  <Route path={'/'} exact component={State}/>
+                  <Route path={'/counties'} component={Counties}/>
+                  <Route path={'/towns'} component={Town}/>
+              </Switch>
+          </Router>
+      </>
   );
 }
 

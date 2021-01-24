@@ -1,0 +1,52 @@
+.map {
+    height: 60vh;
+    width: 100%;
+}
+
+.county {
+    fill: #121212;
+}
+
+.county :hover {
+    fill: #D3D3D3;
+}
+
+.textArea {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+.Instructions {
+    margin-left: 45%;
+    font-size: 12px;
+}
+
+.Update {
+    margin-left: 5%;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+.outter {
+    margin-left: 10px;
+    margin-top: 60px;
+}
+
+.outter div {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #D3D3D3;
+}
+
+.Text {
+    color: #39ace7;
+}
+
+.Search {
+    margin-left: 38%;
+}
+
+.Townname {
+    margin-top: 75px;
+}
