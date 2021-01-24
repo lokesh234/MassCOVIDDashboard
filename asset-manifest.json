@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MassCOVIDDashboard/static/css/main.4e0863a1.chunk.css",
+    "main.js": "/MassCOVIDDashboard/static/js/main.23f316dd.chunk.js",
+    "main.js.map": "/MassCOVIDDashboard/static/js/main.23f316dd.chunk.js.map",
+    "runtime-main.js": "/MassCOVIDDashboard/static/js/runtime-main.163e851d.js",
+    "runtime-main.js.map": "/MassCOVIDDashboard/static/js/runtime-main.163e851d.js.map",
+    "static/css/2.a94b6df7.chunk.css": "/MassCOVIDDashboard/static/css/2.a94b6df7.chunk.css",
+    "static/js/2.55ef405b.chunk.js": "/MassCOVIDDashboard/static/js/2.55ef405b.chunk.js",
+    "static/js/2.55ef405b.chunk.js.map": "/MassCOVIDDashboard/static/js/2.55ef405b.chunk.js.map",
+    "index.html": "/MassCOVIDDashboard/index.html",
+    "static/css/2.a94b6df7.chunk.css.map": "/MassCOVIDDashboard/static/css/2.a94b6df7.chunk.css.map",
+    "static/css/main.4e0863a1.chunk.css.map": "/MassCOVIDDashboard/static/css/main.4e0863a1.chunk.css.map",
+    "static/js/2.55ef405b.chunk.js.LICENSE.txt": "/MassCOVIDDashboard/static/js/2.55ef405b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.163e851d.js",
+    "static/css/2.a94b6df7.chunk.css",
+    "static/js/2.55ef405b.chunk.js",
+    "static/css/main.4e0863a1.chunk.css",
+    "static/js/main.23f316dd.chunk.js"
+  ]
+}
